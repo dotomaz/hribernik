@@ -70,7 +70,7 @@ const DrustvoPage = () => (
             </p>
             <p>
                 Pogledate si lahko našo spletno stran, ki pa je 
-                <Link to="/">www.sms-send.net/hribernik</Link>,
+                <Link to="/">https://hribernik.vercel.app</Link>,
                 da si malo bolj preberete in poslušate inserte skladb. V kolikor bi se kdo želel naučiti igranja na diatonično,
                 klavirsko harmoniko ali sintersizer pa naj pokliče na številko 031 719 165. Kadar pa nanese,
                 da se imamo lepo pa se da ob harmoniki in kozarčku v en prešeren glas tudi zapeti.
