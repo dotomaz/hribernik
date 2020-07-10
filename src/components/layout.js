@@ -24,23 +24,17 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+
+    <div id="container">
+      <Header siteTitle={data.site.siteMetadata.title}></Header>
+      <main>{children}</main>
+      <div id="footer">
+        &copy;{(new Date()).getFullYear()}
+          Aleš Hribernik&nbsp;
+          <span class="separator"></span>
       </div>
-    </>
+    </div>
+
   )
 }
 
