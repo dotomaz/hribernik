@@ -46,7 +46,7 @@ const IndexPage = () => (
           <object width="550" height="330">
             <param name="movie" value="http://www.youtube.com/v/a-Uk9Ohd4RQ&hl=sl_SI&start=2360"></param>
             <param name="allowscriptaccess" value="always"></param>
-            <embed src="http://www.youtube.com/v/a-Uk9Ohd4RQ&hl=en_US&start=2360" type="application/x-shockwave-flash" allowscriptaccess="always" width="550" height="330"></embed>
+            <embed src="https://www.youtube.com/v/a-Uk9Ohd4RQ&hl=en_US&start=2360" type="application/x-shockwave-flash" allowscriptaccess="always" width="550" height="330"></embed>
           </object>
 
         </p>
